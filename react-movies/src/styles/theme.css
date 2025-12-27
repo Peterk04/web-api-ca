@@ -1,0 +1,35 @@
+body {
+    background-color: #231e1e;
+    color: #c0c0c0;
+    font-family: system-ui, sans-serif;
+    margin: 0;
+  }
+  
+  a {
+    color: #b22222;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #e3240b;
+  }
+  
+  .card, .panel {
+    background-color: #121212;
+    border: 1px solid #222;
+    border-radius: 6px;
+    padding: 1rem;
+  }
+  
+  main {
+    margin: 20px;
+  }
+
+  .MuiCard-root {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .MuiCard-root:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  }
+  
